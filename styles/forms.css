@@ -1,0 +1,74 @@
+main .form-title {
+    width: 85%;
+    font-weight: 500;
+    margin: 20px auto 0 auto;
+    color: var(--blueObs);
+}
+
+.form {
+    margin: 0 auto;
+    padding: 20px;
+    width: 85%;
+    height: 80%;
+}
+
+.form p {
+    margin: 20px 0;
+}
+
+.form p .mar-top {
+    margin-top: 5px;
+}
+
+form p input {
+    width: 50%;
+}
+
+form p select {
+    width: 30%;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url(../assets/images/arrow.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+form p input, form p select, form p textarea  {
+    border-radius: 8px;
+    border: 2px solid var(--blueObs);
+}
+
+form p input, form p textarea, form p select {
+    padding: 5px;
+    font-weight: 300;
+}
+
+form p textarea {
+    width: 95%;
+    height: 400px;
+}
+
+form .submit-btn {
+    font-size: 16px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+#edit-btn, #edit-btn2 {
+    cursor: pointer;
+    margin-left: 10px;
+    background-color: #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 450px) {
+    form p select, form p input {
+        width: 70%;
+    }
+}
